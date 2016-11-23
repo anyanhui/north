@@ -4,6 +4,17 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-html-template');
     grunt.initConfig({
+        path: {
+            publicDir: 'pages',
+            buildDir: 'www'
+        },
+        clean: {
+            options: {
+                force: true
+            },
+            build: ['<%= path.buildDir %>'],
+            release: ['<%= path.buildDir %>/**/*.html']
+        },
         html_template: {
             options: {
                 locals:  {
@@ -15,13 +26,14 @@ module.exports = function(grunt) {
             },
             build_html: {
                 expand: true,
-                cwd: "pages",
+                cwd: "<%= path.publicDir %>",
                 src: "**/*.html",
-                dest: "www"
+                dest: "<%= path.buildDir %>"
             }
         },
     });
     grunt.registerTask('default', [
+        'clean',
         'html_template'
     ]);
 };
