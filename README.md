@@ -1,8 +1,8 @@
 # north
 一、开发环境
-  1、必须安装node，
-  2、必须安装grunt
-  3、必须安装git
+    1、必须安装node，
+    2、必须安装grunt
+    3、必须安装git
 二、目录
   /pages
     存放静态文件
