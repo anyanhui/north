@@ -3,6 +3,7 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.loadNpmTasks('grunt-html-template');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.initConfig({
         path: {
             publicDir: 'pages',
@@ -31,6 +32,15 @@ module.exports = function(grunt) {
                 dest: "<%= path.buildDir %>"
             }
         },
+        watch: {
+            build: {
+                files: ['pages/**/*.html'],
+                tasks: ['html_template'],
+                options: {
+                    spawn: false
+                }
+            }
+        }
     });
     grunt.registerTask('default', [
         'clean',
