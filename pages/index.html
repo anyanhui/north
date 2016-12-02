@@ -1,11 +1,20 @@
 {% extends 'layout.html' %}
-{% block title %}My Page{% endblock %}
+{% block title %}index{% endblock %}
 {% block head %}
 {% parent %}
     <link rel="stylesheet" href="../public_dev/css/index.css">
 {% endblock %}
 {% block content %}
-    <p>This is just an awesome page.</p>
+    <div class="top-recommend">
+        <div class="top-recommend-slogan">
+            <h2>
+                预约摄影师拍照<br/>记录每一个特别的你
+                <div class="top-recommend-links">
+                    <a href="" class="ypy-service">如何预约拍照</a>
+                </div>
+            </h2>
+        </div>
+    </div>
 {% endblock %}
 {% block foot %}
 {% parent %}

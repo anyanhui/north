@@ -1,0 +1,41 @@
+.top-recommend {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #999 url('../images/top_commond.png') no-repeat;
+    min-height: 560px;
+    background-size: 100% 100%;
+}
+.top-recommend-slogan {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 0;
+}
+.top-recommend-slogan h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: .25em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.top-recommend-links {
+    margin-top: 10px;
+}
+.top-recommend-links a {
+    margin: 0 10px;
+}
+.top-recommend .ypy-service {
+    font-size: 16px;
+    text-shadow: none;
+    display: inline-block;
+    border-radius: 3px;
+    background: #f66;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    padding: 8px 24px;
+}
