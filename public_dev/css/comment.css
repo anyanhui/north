@@ -5,7 +5,7 @@
 .header a:link, .header a:visited {
     color: #fff; 
 }
-.header .hd {
+.header .hder {
     position: relative;
     width: 95%;
     margin: auto; 

@@ -1,0 +1,353 @@
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+.top-recommend {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #999 url('../images/top_commond.png') no-repeat;
+    min-height: 560px;
+    background-size: cover;
+}
+.top-recommend-slogan {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 0;
+}
+.top-recommend-slogan h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: .25em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.top-recommend-links {
+    margin-top: 10px;
+}
+.top-recommend-links a {
+    margin: 0 10px;
+}
+.top-recommend .ypy-service {
+    font-size: 16px;
+    text-shadow: none;
+    display: inline-block;
+    border-radius: 3px;
+    background: #f66;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    padding: 8px 24px;
+    color: #fff;
+}
+.hits-wrapper {
+    margin: 60px auto 80px;
+}
+.hits-wrapper h2 {
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+.hits {
+    width: 1000px;
+    margin: auto;
+}
+.tempWrap {
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+}
+.tempWrap ul {
+    width: 4000px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.bd li {
+    float: left;
+    width: 1000px;
+    vertical-align: middle;
+}
+.bd img {
+    width: 1000px;
+    height: 290px;
+    display: block;
+}
+.hd {
+    width: 100%;
+    padding-top: 5px;
+    overflow: hidden;
+}
+.hd ul {
+    margin-right: -5px;
+    overflow: hidden;
+    zoom: 1;
+}
+.hd ul li {
+    padding-top: 5px;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.hd ul li.on {
+    border-top: 1px solid red;
+}
+.section-portrait {
+    width: 1000px;
+    margin: 0 auto 80px;
+    font-size: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.section-portrait h2 {
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    font-size: 26px;
+}
+.section-portrait-label {
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: #666;
+}
+.section-portrait-label blockquote {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 10px;
+}
+.section-portrait-label blockquote:before {
+    content: "";
+    position: absolute;
+    width: .65em;
+    height: .65em;
+    border-top: 1px solid #f66;
+    border-left: 1px solid #f66;
+    top: -5px;
+    left: -15px;
+}
+.section-portrait-label blockquote:after {
+    content: "";
+    position: absolute;
+    width: .65em;
+    height: .65em;
+    border-bottom: 1px solid #f66;
+    border-left: 1px solid #f66;
+    bottom: -5px;
+    left: -15px;
+}
+.section-portrait-label q {
+    display: inline-block;
+}
+.section-portrait-label q:before {
+    content: "";
+    position: absolute;
+    width: .65em;
+    height: .65em;
+    border-top: 1px solid #f66;
+    border-right: 1px solid #f66;
+    top: -5px;
+    right: -10px;
+}
+.section-portrait-label q:after {
+    content: "";
+    position: absolute;
+    width: .65em;
+    height: .65em;
+    border-bottom: 1px solid #f66;
+    border-right: 1px solid #f66;
+    bottom: -5px;
+    right: -10px;
+}
+.section-portrait-list {
+    margin-top: 26px;
+}
+.section-portrait-list ul li{
+    display: inline-block;
+    vertical-align: top;
+    width: 318px;
+    height: 318px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.section-portrait-list ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+.package-item-pic {
+    position: relative;
+    padding-bottom: 65%;
+    margin-bottom: 20px;
+    height: 0;
+    overflow: hidden;
+}
+.package-item-pic img {
+    position: absolute;
+    width: 100%;
+    top: -1000px;
+    bottom: -1000px;
+    left: -1000px;
+    right: -1000px;
+    margin: auto;
+}
+.package-item-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.package-item-price {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #f66;
+}
+.package-item-loc {
+    font-size: 12px;
+}
+.section-wedding-more {
+    margin-top: 30px;
+    font-size: 14px;
+}
+.section-wedding-more a {
+    display: inline-block;
+    padding: .5em 2.5em;
+    border: 1px dashed #f66;
+    line-height: 1.2;
+}
+.section-wedding-more a:link, .section-wedding-more a:visited {
+    color: #666;
+}
+.section-wedding-more a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f66;
+}
+.features {
+    padding: 40px 0;
+    margin-bottom: 80px;
+    background-color: #fffafa;
+}
+.features ul {
+    display: block;
+    width: 1000px;
+    margin: auto;
+    font-size: 0;
+    color: #666;
+}
+.features ul li {
+    display: inline-block;
+    width: 33.3%;
+    font-size: 12px;
+}
+.features ul .figure {
+    text-align: center;
+}
+.features ul .desc {
+    padding: 0 25px;
+}
+.features ul .figure img {
+    width: 70%;
+}
+.features ul .desc-title {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+.features ul .desc p {
+    text-align: justify;
+}
+.section-pger {
+    width: 1000px;
+    margin: 0 auto 80px;
+    font-size: 0;
+    text-align: center;
+}
+.section-pger h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+.section-pger-more {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.section-pger .section-pger-card {
+    position: relative;
+    background-color: #fff;
+}
+.section-pger .section-pger-info {
+    margin-right: 70%;
+    border: 1px solid #eee;
+    border-right-width: 0;
+    min-height: 410px;
+}
+.section-pger .section-pger-info-inner {
+    padding: 40px;
+    font-size: 13px;
+    color: #999;
+}
+.section-pger .section-pger-info-avatar {
+    width: 84px;
+    height: 84px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 1px solid #f66;
+    overflow: hidden;
+}
+.section-pger .section-pger-info-avatar img {
+    width: 100%;
+}
+.section-pger .section-pger-info-name {
+    font-size: 21px;
+}
+.section-pger .section-pger-info-loc {
+    margin-bottom: 20px;
+}
+.section-pger .section-pger-info-rec blockquote {
+    margin: 0;
+    color: #888;
+    text-align: right;
+    line-height: 1.62;
+}
+.section-pger .section-pger-info-rec blockquote q {
+    display: block;
+    font-size: 1.15em;
+    text-align: justify;
+    color: #555;
+}
+.section-pger .section-pger-info-inner-more {
+    margin-top: 30px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+.section-pger .section-pger-info-inner-more a {
+    display: inline-block;
+    padding: .5em 2.5em;
+    border: 1px dashed #f66;
+}
+.section-pger .section-pger-info-inner-more a:link, .section-pger .section-pger-info-inner-more a:visited {
+    color: #666;
+}
+.section-pger .section-pger-info-inner-more a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f66;
+}
+.section-pger .section-pger-photo {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #eee;
+}
+.section-pger .section-pger-photo img {
+    width: 100%;
+}

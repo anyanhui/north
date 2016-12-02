@@ -1,13 +1,216 @@
 {% extends 'layout.html' %}
-{% block title %}My Page{% endblock %}
+{% block title %}index{% endblock %}
 {% block head %}
 {% parent %}
     <link rel="stylesheet" href="../public_dev/css/index.css">
 {% endblock %}
 {% block content %}
-    <p>This is just an awesome page.</p>
+    <div class="top-recommend">
+        <div class="top-recommend-slogan">
+            <h2>
+                预约摄影师拍照<br/>记录每一个特别的你
+                <div class="top-recommend-links">
+                    <a href="" class="ypy-service">如何预约拍照</a>
+                </div>
+            </h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="hits-wrapper">
+            <h2>热门专题</h2>
+            <div class="hits">
+                <div class="bd">
+                    <div class="tempWrap">
+                        <ul>
+                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_1.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_2.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_3.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_4.png" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hd">
+                    <ul>
+                        <li>肖像专场</li>
+                        <li>你该换证件照了</li>
+                        <li>婚纱早鸟票</li>
+                        <li>青春纪念场</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-portrait">
+            <h2>写真</h2>
+            <div class="section-portrait-label">
+                <blockquote>
+                    <q>在这里，你是女主角</q>
+                </blockquote>
+            </div>
+            <div class="section-portrait-list">
+                <ul>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/01.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/02.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/03.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/01.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/02.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-portrait-list-cell">
+                        <a href="" target="_blank">
+                            <div class="package-item-pic">
+                                <img src="../public_dev/images/03.png" alt="">
+                            </div>
+                            <div class="package-item-info">
+                                <div class="package-item-title">
+                                    <span>人生海海的明星</span>
+                                </div>
+                                <div class="package-item-price">￥3480起/套</div>
+                                <div class="package-item-oc">杭州, 上海, 厦门, 沈阳, 北京</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-wedding-more">
+                <a href="#">更多婚纱套系</a>
+            </div>
+        </div>
+        <div class="features">
+            <ul>
+                <li>
+                    <div class="figure">
+                        <img src="../public_dev/images/ic_feature_1.png">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-title">最棒的摄影师</div>
+                        <p>这里每一位摄影师，都是豆瓣摄影从专业、创意、服务三个方面，于千百摄影师中精挑细选而来。
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure">
+                        <img src="../public_dev/images/ic_feature_2.png">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-title">1对1定制拍摄</div>
+                        <p>每一次拍摄都花足心思，在意每一个人的个性特点，拒绝模式化生产。好照片，属于每一个特别的你。
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure">
+                        <img src="../public_dev/images/ic_feature_3.png">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-title">没有额外消费</div>
+                        <p>所有服务内容均价格透明，没有任何形式的诱导消费，你最初看到的价格就是最终要支付的金额。
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="section-pger">
+            <h2>本期推荐摄影师</h2>
+            <div class="section-pger-more">
+                <a href="" target="_blank">全部摄影师</a>
+            </div>
+            <div class="section-pger-card">
+                <div class="section-pger-info">
+                    <div class="section-pger-info-inner">
+                        <div class="section-pger-info-avatar">
+                            <a href="" target="_blank"><img src="../public_dev/images/sys.png"></a>
+                        </div>
+                        <div class="section-pger-info-name">
+                            <a href="#" target="_blank">天航工作室</a>
+                        </div>
+                        <div class="section-pger-info-loc">
+                          (北京)
+                        </div>
+                        <div class="section-pger-info-rec">
+                            <blockquote>
+                                <q>藏在内心的公主梦，永远不会变老的少女心，通通找她来实现—天航工作室。坐标北京：主理人天航，微博20万+的关注粉丝，擅长日系甜美风，少女心爆棚的摄影师，其工作室一直秉承天航的拍摄理念，实现每一个少女的公主梦，定格最美的你 </q>
+                           -- 小拍推荐
+                            </blockquote>
+                        </div>
+                        <div class="section-pger-info-inner-more">
+                            <a href="" target="_blank">更多作品</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-pger-photo">
+                    <a href="" target="_blank">
+                        <img src="../public_dev/images/demo.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 {% block foot %}
 {% parent %}
+    <script src="../public_dev/js/lib/jquery.SuperSlide.2.1.1.js"></script>
     <script src="../public_dev/js/index.js"></script>
 {% endblock %}
