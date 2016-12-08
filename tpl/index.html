@@ -1,45 +1,10 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-    <meta name="keywords" content="摄影师,摄影,写真,婚纱,私拍,约拍,旅拍,客片">
-    <meta name="description" content="北方摄影">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="北方摄影">
-
-
-    <link rel="stylesheet" href="css/page_common_head.7c8b302d.css">
-
+{% extends 'layout.html' %}
+{% block title %}index{% endblock %}
+{% block head %}
+{% parent %}
     <link rel="stylesheet" href="css/page_index.46016fdf.css">
-
-</head>
-
-<body>
-    <div class="header">
-        <div class="hder">
-            <div class="header-logo">
-                <a href="https://ypy.douban.com/" class="logo">北方摄影</a>
-                <div class="header-logo-text">
-                    北方摄影
-                </div>
-            </div>
-            <div class="header-nav">
-                <ul>
-                    <li class="on"><a href="">首页</a></li>
-                    <li class=""><a href="/package">套系</a></li>
-                    <li class=""><a href="/explore/pger">摄影师</a></li>
-                    <li class=""><a href="/explore">客片</a></li>
-                    <li class=""><a href="/events">活动</a></li>
-                </ul>
-            </div>
-            <div class="header-user">
-                <a href="javascript:;">登录</a>
-            </div>
-        </div>
-    </div>
-
+{% endblock %}
+{% block content %}
     <div class="top-recommend">
         <div class="top-recommend-slogan">
             <h2>
@@ -57,18 +22,10 @@
                 <div class="bd">
                     <div class="tempWrap">
                         <ul>
-                            <li>
-                                <a href="" target="_blank"><img src="images/bd_1.png" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="images/bd_2.png" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="images/bd_3.png" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="images/bd_4.png" /></a>
-                            </li>
+                            <li><a href="" target="_blank"><img src="images/bd_1.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_2.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_3.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_4.png" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -230,11 +187,12 @@
                             <a href="#" target="_blank">天航工作室</a>
                         </div>
                         <div class="section-pger-info-loc">
-                            (北京)
+                          (北京)
                         </div>
                         <div class="section-pger-info-rec">
                             <blockquote>
-                                <q>藏在内心的公主梦，永远不会变老的少女心，通通找她来实现—天航工作室。坐标北京：主理人天航，微博20万+的关注粉丝，擅长日系甜美风，少女心爆棚的摄影师，其工作室一直秉承天航的拍摄理念，实现每一个少女的公主梦，定格最美的你 </q> -- 小拍推荐
+                                <q>藏在内心的公主梦，永远不会变老的少女心，通通找她来实现—天航工作室。坐标北京：主理人天航，微博20万+的关注粉丝，擅长日系甜美风，少女心爆棚的摄影师，其工作室一直秉承天航的拍摄理念，实现每一个少女的公主梦，定格最美的你 </q>
+                           -- 小拍推荐
                             </blockquote>
                         </div>
                         <div class="section-pger-info-inner-more">
@@ -250,94 +208,8 @@
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <div class="bd">
-            <div class="mod-footer-copyright">
-                <div class="contact">
-                    客服电话: <a href="tel:400-8353-331">400-8353-331请按3</a> (工作日9:30到19:30)
-                </div>
-                © 2016 北方摄影
-                <a href="/about">关于我们</a>
-                <a href="/about_service">拍摄流程</a>
-                <a href="/faq">常见问题</a>
-                <a href="/pger_join">摄影师入驻</a>
-            </div>
-        </div>
-    </div>
-    <div class="mask">
-        <section>
-            <div id="container_demo">
-                <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
-                <a class="hiddenanchor" id="toregister"></a>
-                <a class="hiddenanchor" id="tologin"></a>
-                <div id="wrapper">
-                    <div id="login" class="animate form">
-                        <div class="form-close">X</div>
-                        <form action="mysuperscript.php" autocomplete="on">
-                            <h1>登陆</h1>
-                            <p>
-                                <label for="username" class="uname">邮箱/用户名</label>
-                                <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com" />
-                            </p>
-                            <p>
-                                <label for="password" class="youpasswd">密码</label>
-                                <input id="password" name="password" required="required" type="password" placeholder="请输入密码" />
-                            </p>
-                            <p class="keeplogin">
-                                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
-                                <label for="loginkeeping">保存登陆状态</label>
-                            </p>
-                            <p class="login button">
-                                <input type="submit" value="登录" />
-                            </p>
-                            <p class="change_link">
-                                没有注册?
-                                <a href="#toregister" class="to_register">加入我们</a>
-                            </p>
-                        </form>
-                    </div>
-
-                    <div id="register" class="animate form">
-                        <div class="form-close">X</div>
-                        <form action="mysuperscript.php" autocomplete="on">
-                            <h1> Sign up </h1>
-                            <p>
-                                <label for="usernamesignup" class="uname">用户名</label>
-                                <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
-                            </p>
-                            <p>
-                                <label for="emailsignup" class="youmail">邮箱</label>
-                                <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com" />
-                            </p>
-                            <p>
-                                <label for="passwordsignup" class="youpasswd">密码 </label>
-                                <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" />
-                            </p>
-                            <p>
-                                <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">确认密码</label>
-                                <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO" />
-                            </p>
-                            <p class="signin button">
-                                <input type="submit" value="注册" />
-                            </p>
-                            <p class="change_link">
-                                有账号 ?
-                                <a href="#tologin" class="to_register">登录</a>
-                            </p>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </div>
-
-
-    <script src="js/page_common_foot.8abc7020.js"></script>
-
+{% endblock %}
+{% block foot %}
+{% parent %}
     <script src="js/page_index.20e16baf.js"></script>
-
-</body>
-
-</html>
+{% endblock %}

@@ -2,7 +2,9 @@
 {% block title %}index{% endblock %}
 {% block head %}
 {% parent %}
-    <link rel="stylesheet" href="../public_dev/css/index.css">
+    <!-- build:css css/page_index.css -->
+    <link rel="stylesheet" href="/public_dev/css/index.css">
+    <!-- endbuild -->
 {% endblock %}
 {% block content %}
     <div class="top-recommend">
@@ -22,10 +24,10 @@
                 <div class="bd">
                     <div class="tempWrap">
                         <ul>
-                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_1.png" /></a></li>
-                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_2.png" /></a></li>
-                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_3.png" /></a></li>
-                            <li><a href="" target="_blank"><img src="../public_dev/images/bd_4.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_1.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_2.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_3.png" /></a></li>
+                            <li><a href="" target="_blank"><img src="images/bd_4.png" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,7 +53,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/01.png" alt="">
+                                <img src="images/01.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -65,7 +67,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/02.png" alt="">
+                                <img src="images/02.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -79,7 +81,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/03.png" alt="">
+                                <img src="images/03.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -93,7 +95,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/01.png" alt="">
+                                <img src="images/01.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -107,7 +109,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/02.png" alt="">
+                                <img src="images/02.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -121,7 +123,7 @@
                     <li class="section-portrait-list-cell">
                         <a href="" target="_blank">
                             <div class="package-item-pic">
-                                <img src="../public_dev/images/03.png" alt="">
+                                <img src="images/03.png" alt="">
                             </div>
                             <div class="package-item-info">
                                 <div class="package-item-title">
@@ -142,7 +144,7 @@
             <ul>
                 <li>
                     <div class="figure">
-                        <img src="../public_dev/images/ic_feature_1.png">
+                        <img src="images/ic_feature_1.png">
                     </div>
                     <div class="desc">
                         <div class="desc-title">最棒的摄影师</div>
@@ -152,7 +154,7 @@
                 </li>
                 <li>
                     <div class="figure">
-                        <img src="../public_dev/images/ic_feature_2.png">
+                        <img src="images/ic_feature_2.png">
                     </div>
                     <div class="desc">
                         <div class="desc-title">1对1定制拍摄</div>
@@ -162,7 +164,7 @@
                 </li>
                 <li>
                     <div class="figure">
-                        <img src="../public_dev/images/ic_feature_3.png">
+                        <img src="images/ic_feature_3.png">
                     </div>
                     <div class="desc">
                         <div class="desc-title">没有额外消费</div>
@@ -181,7 +183,7 @@
                 <div class="section-pger-info">
                     <div class="section-pger-info-inner">
                         <div class="section-pger-info-avatar">
-                            <a href="" target="_blank"><img src="../public_dev/images/sys.png"></a>
+                            <a href="" target="_blank"><img src="images/sys.png"></a>
                         </div>
                         <div class="section-pger-info-name">
                             <a href="#" target="_blank">天航工作室</a>
@@ -202,7 +204,7 @@
                 </div>
                 <div class="section-pger-photo">
                     <a href="" target="_blank">
-                        <img src="../public_dev/images/demo.png">
+                        <img src="images/demo.png">
                     </a>
                 </div>
             </div>
@@ -211,6 +213,8 @@
 {% endblock %}
 {% block foot %}
 {% parent %}
-    <script src="../public_dev/js/lib/jquery.SuperSlide.2.1.1.js"></script>
-    <script src="../public_dev/js/index.js"></script>
+    <!-- build:js js/page_index.js -->
+    <script src="/public_dev/js/lib/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="/public_dev/js/index.js"></script>
+    <!-- endbuild -->
 {% endblock %}
