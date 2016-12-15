@@ -1,0 +1,1 @@
+$(function(){$(".packages-cate, .packages-city, .packages-filter").on("click",".tag",function(a){a.preventDefault(),$(this).addClass("packages-cate-on").siblings(".tag").removeClass("packages-cate-on")})});
