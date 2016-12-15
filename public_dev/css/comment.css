@@ -1,3 +1,8 @@
+.container {
+    min-height: 500px;
+    width: 1000px;
+    margin: 0 auto 40px;
+}
 .header {
     background: rgba(0,0,0,.5);
     color: #fff; 

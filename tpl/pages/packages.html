@@ -1,0 +1,137 @@
+{% extends 'layout.html' %}
+{% block title %}packages{% endblock %}
+{% block head %}
+{% parent %}
+    <!-- build:css css/page_packages.css -->
+    <link rel="stylesheet" href="/public_dev/css/packages.css">
+    <!-- endbuild -->
+{% endblock %}
+{% block content %}
+<div class="container packages">
+    <div class="packages-cate">
+        <span class="packages-cate-label">类 别:</span>
+        <span class="packages-cate-items">
+            <span class="packages-cate-on">不限</span>
+            <a href="/package/cate/1" class="tag">写真</a>
+            <a href="/package/cate/2" class="tag">婚纱</a>
+            <a href="/package/cate/3" class="tag">亲子</a>
+            <a href="/package/cate/4" class="tag">孕照</a>
+            <a href="/package/cate/5" class="tag">私房</a>
+            <a href="/package/cate/6" class="tag">肖像照</a>
+            <a href="/package/cate/7" class="tag">旅拍</a>
+            <a href="/package/cate/8" class="tag">其他</a>
+        </span>
+    </div>
+    <div class="packages-city">
+        <span class="packages-city-label">拍摄地:</span>
+        <span class="packages-city-items">
+            <span class="packages-city-on">不限</span>
+            <a href="/package/loc/108288" class="tag">北京</a>
+            <a href="/package/loc/108296" class="tag">上海</a>
+            <a href="/package/loc/118282" class="tag">深圳</a>
+            <a href="/package/loc/118281" class="tag">广州</a>
+            <a href="/package/loc/118172" class="tag">杭州</a>
+            <a href="/package/loc/118318" class="tag">成都</a>
+            <a href="/package/loc/118254" class="tag">武汉</a>
+            <a href="/package/loc/118201" class="tag">厦门</a>
+            <a href="/package/loc/118159" class="tag">南京</a>
+            <a href="/package/loc/118371" class="tag">西安</a>
+            <a href="/package/loc/118163" class="tag">苏州</a>
+            <a href="/package/loc/108289" class="tag">天津</a>
+            <a href="/package/loc/118267" class="tag">长沙</a>
+            <a href="/package/loc/108309" class="tag">重庆</a>
+            <a href="/package/loc/118237" class="tag">郑州</a>
+            <a href="/package/loc/118348" class="tag">昆明</a>
+            <a href="/package/loc/118200" class="tag">福州</a>
+            <a href="/package/loc/118360" class="tag">大理</a>
+            <a href="/package/loc/118302" class="tag">南宁</a>
+            <a href="/package/loc/118283" class="tag">珠海</a>
+            <a href="/package/loc/118221" class="tag">青岛</a>
+            <a href="/package/loc/118297" class="tag">东莞</a>
+            <a href="/package/loc/118381" class="tag">兰州</a>
+            <a href="/package/loc/108090" class="tag">香港</a>
+            <a href="/package/loc/118123" class="tag">沈阳</a>
+            <a href="/package/loc/118173" class="tag">宁波</a>
+            <a href="/package/loc/118238" class="tag">开封</a>
+            <a href="/package/loc/118353" class="tag">丽江</a>
+            <a href="/package/loc/118124" class="tag">大连</a>
+        </span>
+    </div>
+    <div class="packages-filter">
+        <span class="packages-filter-label">筛 选:</span>
+        <span class="packages-filter-items">
+            <span class="packages-filter-on">不限</span>
+            <a href="/package/?filter_type=promotion" class="tag">有优惠</a>
+            <a href="/package/?filter_type=popular" class="tag">最受欢迎</a>
+            <a href="/package/?filter_type=rec" class="tag">小拍推荐</a>
+        </span>
+    </div>
+    <div class="packages-pkg-list-title">
+        <h1>全部套系</h1>
+    </div>
+    <div class="packages-pkg-list">
+        <ul>
+            <li>
+                <a href="" class="lnk-pic-card" target="_blank">
+                    <div class="slot-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slot-bd">
+                        <h3 class="title">
+                            <span class="package-type">[亲子]</span>
+                            <span>复古全家福</span>
+                        </h3>
+                        <div class="price">
+                            <span class="collected-num">164人想拍</span>
+                            <span class="price-value">￥3980-7580</span>
+                        </div>
+                        <span class="loc">北京</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="lnk-pic-card" target="_blank">
+                    <div class="slot-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slot-bd">
+                        <h3 class="title">
+                            <span class="package-type">[亲子]</span>
+                            <span>复古全家福</span>
+                        </h3>
+                        <div class="price">
+                            <span class="collected-num">164人想拍</span>
+                            <span class="price-value">￥3980-7580</span>
+                        </div>
+                        <span class="loc">北京</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="lnk-pic-card" target="_blank">
+                    <div class="slot-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slot-bd">
+                        <h3 class="title">
+                            <span class="package-type">[亲子]</span>
+                            <span>复古全家福</span>
+                        </h3>
+                        <div class="price">
+                            <span class="collected-num">164人想拍</span>
+                            <span class="price-value">￥3980-7580</span>
+                        </div>
+                        <span class="loc">北京</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+{% block foot %}
+{% parent %}
+    <!-- build:js js/page_packages.js -->
+    <script src="/public_dev/js/packages.js"></script>
+    <!-- endbuild -->
+{% endblock %}
