@@ -1,0 +1,1 @@
+$(function(){$(".loc-nav").on("click",".loc",function(a){a.preventDefault(),$(this).addClass("loc-selected").siblings(".loc").removeClass("loc-selected")})});
