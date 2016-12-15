@@ -1,0 +1,1 @@
+$(function(){$(".packages-cate").on("click",".tag",function(a){a.preventDefault(),$(this).addClass("packages-cate-on").siblings(".tag").removeClass("packages-cate-on")})});

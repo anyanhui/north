@@ -22,6 +22,9 @@
     white-space: nowrap;
     line-height: 1;
 }
+.packages-cate-on {
+    background: #fff !important;
+}
 .packages-pkg-list-title {
     margin-bottom: 30px;
 }
